@@ -24,8 +24,8 @@ public class ExtendedParallelConvertPluginPathTest {
             {"pretty:target/cucumber-pretty-dry.txt", false, "pretty:target/0/cucumber-pretty-dry.txt"},
             {"usage:target/cucumber-usage-dry.json", false, "usage:target/0/cucumber-usage-dry.json"},
             {"junit:target/cucumber-results-dry.xml", false, "junit:target/0/cucumber-results-dry.xml"},
-            {"com.github.mkolisnyk.cucumber.runner.CustomReporter", true, "com.github.mkolisnyk.cucumber.runner.CustomReporter"},
-            {"com.github.mkolisnyk.cucumber.runner.CustomFormatter:test.txt", true, "com.github.mkolisnyk.cucumber.runner.CustomFormatter:0/test.txt"},
+            {"io.github.shreyanshp.cucumber.runner.CustomReporter", true, "io.github.shreyanshp.cucumber.runner.CustomReporter"},
+            {"io.github.shreyanshp.cucumber.runner.CustomFormatter:test.txt", true, "io.github.shreyanshp.cucumber.runner.CustomFormatter:0/test.txt"},
         });
     }
 

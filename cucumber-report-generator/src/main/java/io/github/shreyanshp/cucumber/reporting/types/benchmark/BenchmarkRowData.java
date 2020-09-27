@@ -7,9 +7,9 @@ import io.github.shreyanshp.cucumber.reporting.types.result.CucumberFeatureResul
 import io.github.shreyanshp.cucumber.reporting.types.result.CucumberScenarioResult;
 
 /**
- * A part of input data for the <a href="http://mkolisnyk.github.io/cucumber-reports/benchmark">Benchmark Report</a>.
+ * A part of input data for the <a href="http://shreyanshp.github.io/cucumber-reports/benchmark">Benchmark Report</a>.
  * It contains benchmarked data for single feature/scenario.
- * @author mykolak
+ * @author shreyanshp
  */
 public class BenchmarkRowData {
     private String name;

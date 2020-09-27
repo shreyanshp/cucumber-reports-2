@@ -4,7 +4,7 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 
 /**
- * Represents data structure for the <a href="http://mkolisnyk.github.io/cucumber-reports/overview-chart-report">
+ * Represents data structure for the <a href="http://shreyanshp.github.io/cucumber-reports/overview-chart-report">
  * Overview Charts Report</a> generation.
  * @author Mykola Kolisnyk
  */

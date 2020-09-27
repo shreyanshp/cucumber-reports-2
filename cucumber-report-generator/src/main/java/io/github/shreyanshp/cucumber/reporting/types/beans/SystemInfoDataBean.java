@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Data structure which is used for the <a href="http://mkolisnyk.github.io/cucumber-reports/system-info">
+ * Data structure which is used for the <a href="http://shreyanshp.github.io/cucumber-reports/system-info">
  * System Info</a> report generation.
  * @author Mykola Kolisnyk
  */

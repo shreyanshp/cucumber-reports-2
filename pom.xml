@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.github.mkolisnyk</groupId>
+		<groupId>io.github.shreyanshp</groupId>
 		<artifactId>parent-pom</artifactId>
 		<version>0.0.5</version>
 	</parent>
@@ -19,15 +19,15 @@
 	</licenses>
 	<developers>
 		<developer>
-			<id>mkolisnyk</id>
-			<name>mkolisnyk</name>
+			<id>shreyanshp</id>
+			<name>shreyanshp</name>
 			<email>kolesnik.nickolay@gmail.com</email>
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git@github.com:mkolisnyk/cucumber-reports.git</connection>
-		<developerConnection>scm:git:git@github.com:mkolisnyk/cucumber-reports.git</developerConnection>
-		<url>https://github.com/mkolisnyk/cucumber-reports.git</url>
+		<connection>scm:git:git@github.com:shreyanshp/cucumber-reports.git</connection>
+		<developerConnection>scm:git:git@github.com:shreyanshp/cucumber-reports.git</developerConnection>
+		<url>https://github.com/shreyanshp/cucumber-reports.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	<properties>
@@ -96,14 +96,14 @@
 				</executions>
 			</plugin>
 			<plugin>
-				<groupId>com.github.github</groupId>
+				<groupId>io.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.12</version>
 				<configuration>
 					<message>Creating site for ${project.groupId}:${project.artifactId}:${project.version}</message>
 					<oauth2Token>${oauth.token}</oauth2Token>
 					<repositoryName>cucumber-reports</repositoryName>
-					<repositoryOwner>mkolisnyk</repositoryOwner>
+					<repositoryOwner>shreyanshp</repositoryOwner>
 					<merge>true</merge>
 					<path>site</path>
 					<dryRun>false</dryRun>

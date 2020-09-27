@@ -1,5 +1,5 @@
 {
-	"@type":"com.github.mkolisnyk.cucumber.reporting.types.breakdown.BreakdownReportModel",
+	"@type":"io.github.shreyanshp.cucumber.reporting.types.breakdown.BreakdownReportModel",
 	"reportsInfo":[
 		{
 			"reportSuffix":"report1",

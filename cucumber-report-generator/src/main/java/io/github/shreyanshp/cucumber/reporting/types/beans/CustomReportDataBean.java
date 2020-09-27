@@ -7,7 +7,7 @@ import io.github.shreyanshp.cucumber.reporting.types.usage.CucumberStepSource;
 
 /**
  * Represents data structure which is used for the
- * <a href="http://mkolisnyk.github.io/cucumber-reports/custom-report">Custom Report</a> generation.
+ * <a href="http://shreyanshp.github.io/cucumber-reports/custom-report">Custom Report</a> generation.
  * @author Mykola Kolisnyk
  */
 public class CustomReportDataBean extends SystemInfoDataBean {

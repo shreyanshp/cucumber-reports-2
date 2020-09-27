@@ -54,8 +54,8 @@ public class TestNGRunnerTest {
                       "pretty:target/cucumber-pretty.txt",
                       "usage:target/cucumber-usage.json"
                      },
-            features = {"src/test/java/com/github/mkolisnyk/cucumber/features/" },
-            //glue = {"com/github/mkolisnyk/cucumber/steps" },
+            features = {"src/test/java/com/github/shreyanshp/cucumber/features/" },
+            //glue = {"com/github/shreyanshp/cucumber/steps" },
             tags = {"@passed"}
     )
     public static class TestSubClass extends ExtendedTestNGRunner {
@@ -88,8 +88,8 @@ public class TestNGRunnerTest {
                       "pretty:target/cucumber-pretty.txt",
                       "usage:target/cucumber-usage.json"
                      },
-            features = {"src/test/java/com/github/mkolisnyk/cucumber/features/" },
-            //glue = {"com/github/mkolisnyk/cucumber/steps" },
+            features = {"src/test/java/com/github/shreyanshp/cucumber/features/" },
+            //glue = {"com/github/shreyanshp/cucumber/steps" },
             tags = {"@passed"}
     )
     public class TestSubClassWithException extends ExtendedTestNGRunner {
@@ -124,8 +124,8 @@ public class TestNGRunnerTest {
                       "pretty:target/cucumber-pretty.txt",
                       "usage:target/cucumber-usage.json"
                      },
-            features = {"src/test/java/com/github/mkolisnyk/cucumber/features/Test.feature" },
-            glue = {"com/github/mkolisnyk/cucumber/steps" },
+            features = {"src/test/java/com/github/shreyanshp/cucumber/features/Test.feature" },
+            glue = {"com/github/shreyanshp/cucumber/steps" },
             tags = {"@passed"}
     )
     public class TestSubClassWithInvalidParams extends ExtendedTestNGRunner {

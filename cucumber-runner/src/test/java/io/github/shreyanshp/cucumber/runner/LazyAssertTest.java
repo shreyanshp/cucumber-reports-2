@@ -24,8 +24,8 @@ import cucumber.runtime.ExtendedRuntime;
         toPDF = false,
         outputFolder = "target/lazy")
 @CucumberOptions(
-        features = { "./src/test/java/com/github/mkolisnyk/cucumber/features/LazyAssert.feature" },
-        glue = { "com/github/mkolisnyk/cucumber/steps" },
+        features = { "./src/test/java/com/github/shreyanshp/cucumber/features/LazyAssert.feature" },
+        glue = { "com/github/shreyanshp/cucumber/steps" },
         plugin = {
         "json:target/cucumber.json", "html:target/cucumber-html-report",
         "pretty:target/cucumber-pretty.txt",

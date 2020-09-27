@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Contains data structure which is passed as the data bean durine generation
- * of <a href="http://mkolisnyk.github.io/cucumber-reports/consolidated-report">Consolidated Report</a>.
+ * of <a href="http://shreyanshp.github.io/cucumber-reports/consolidated-report">Consolidated Report</a>.
  * @author Mykola Kolisnyk
  */
 public class ConsolidatedDataBean extends CommonDataBean {

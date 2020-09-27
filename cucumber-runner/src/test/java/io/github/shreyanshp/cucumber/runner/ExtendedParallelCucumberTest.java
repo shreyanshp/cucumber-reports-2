@@ -59,10 +59,10 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(plugin = { "html:target/cucumber-html-report",
         "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
         "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml",
-        "com.github.mkolisnyk.cucumber.runner.CustomReporter",
-        "com.github.mkolisnyk.cucumber.runner.CustomFormatter:test.txt" },
-        features = { "./src/test/java/com/github/mkolisnyk/cucumber/features" },
-        glue = { "com/github/mkolisnyk/cucumber/steps" },
+        "io.github.shreyanshp.cucumber.runner.CustomReporter",
+        "io.github.shreyanshp.cucumber.runner.CustomFormatter:test.txt" },
+        features = { "./src/test/java/com/github/shreyanshp/cucumber/features" },
+        glue = { "com/github/shreyanshp/cucumber/steps" },
         tags = {"@passed"})
 public class ExtendedParallelCucumberTest {
     @Test

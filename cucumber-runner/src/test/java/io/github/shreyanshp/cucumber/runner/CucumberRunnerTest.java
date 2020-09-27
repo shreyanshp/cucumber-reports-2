@@ -9,8 +9,8 @@ import cucumber.api.CucumberOptions;
 @RunWith(ExtendedCucumber.class)
 @ExtendedCucumberOptions(jsonReport = "target/cucumber.json", retryCount = 3, detailedReport = true, detailedAggregatedReport = true, overviewReport = false, toPDF = false, outputFolder = "target")
 @CucumberOptions(
-        features = { "./src/test/java/com/github/mkolisnyk/cucumber/features" },
-        glue = { "com/github/mkolisnyk/cucumber/steps" },
+        features = { "./src/test/java/com/github/shreyanshp/cucumber/features" },
+        glue = { "com/github/shreyanshp/cucumber/steps" },
         plugin = {
         "json:target/cucumber.json", "html:target/cucumber-html-report",
         "pretty:target/cucumber-pretty.txt",

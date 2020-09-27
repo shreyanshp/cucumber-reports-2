@@ -1,5 +1,5 @@
 {
-  "@type": "com.github.mkolisnyk.cucumber.reporting.types.benchmark.BenchmarkReportModel", 
+  "@type": "io.github.shreyanshp.cucumber.reporting.types.benchmark.BenchmarkReportModel", 
   "items": [
     {
       "path": "src/test/resources/benchmark-source/2/cucumber-1.json", 

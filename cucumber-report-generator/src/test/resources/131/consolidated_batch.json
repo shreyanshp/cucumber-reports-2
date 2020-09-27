@@ -1,5 +1,5 @@
 {
-  "@type": "com.github.mkolisnyk.cucumber.reporting.types.consolidated.ConsolidatedReportBatch", 
+  "@type": "io.github.shreyanshp.cucumber.reporting.types.consolidated.ConsolidatedReportBatch", 
   "models": [
     {
       "items": [

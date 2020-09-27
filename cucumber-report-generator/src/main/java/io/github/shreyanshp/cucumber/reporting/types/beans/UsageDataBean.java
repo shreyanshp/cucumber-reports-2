@@ -5,7 +5,7 @@ import java.util.Map;
 import io.github.shreyanshp.cucumber.reporting.types.usage.CucumberStepSource;
 
 /**
- * Data structure which is used for the <a href="http://mkolisnyk.github.io/cucumber-reports/usage-report">
+ * Data structure which is used for the <a href="http://shreyanshp.github.io/cucumber-reports/usage-report">
  * Usage Report</a> genearation.
  * @author Mykola Kolisnyk
  */

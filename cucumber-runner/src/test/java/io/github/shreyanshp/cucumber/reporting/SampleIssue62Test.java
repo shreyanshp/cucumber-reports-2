@@ -22,9 +22,9 @@ import cucumber.api.CucumberOptions;
         toPDF = true,
         outputFolder = "target/LoginReport/ExtendedReport")
 @CucumberOptions(
-        features = { "src/test/java/com/github/mkolisnyk/cucumber/features/63.feature" },
+        features = { "src/test/java/com/github/shreyanshp/cucumber/features/63.feature" },
         //tags = { "~@ignore" },
-        glue = "com/github/mkolisnyk/cucumber/steps", plugin = {
+        glue = "com/github/shreyanshp/cucumber/steps", plugin = {
         "html:target/LoginReport", "json:target/cucumber.json",
         "pretty:target/cucumber-pretty.txt",
         "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml" })

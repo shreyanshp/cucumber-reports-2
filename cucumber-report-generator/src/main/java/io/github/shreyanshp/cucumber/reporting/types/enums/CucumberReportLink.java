@@ -1,7 +1,7 @@
 package io.github.shreyanshp.cucumber.reporting.types.enums;
 
 public enum CucumberReportLink {
-    COMMON_URL("http://mkolisnyk.github.io/cucumber-reports"),
+    COMMON_URL("http://shreyanshp.github.io/cucumber-reports"),
     BREAKDOWN_URL(COMMON_URL + "/breakdown-report"),
     BENCHMARK_URL(COMMON_URL + "/benchmark"),
     CHART_URL(COMMON_URL + "/chart-report"),

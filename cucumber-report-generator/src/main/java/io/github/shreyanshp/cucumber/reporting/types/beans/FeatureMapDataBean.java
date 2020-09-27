@@ -4,7 +4,7 @@ import io.github.shreyanshp.cucumber.reporting.types.breakdown.BreakdownTable;
 import io.github.shreyanshp.cucumber.reporting.types.result.CucumberScenarioResult;
 
 /**
- * Represents data structure for the <a href="http://mkolisnyk.github.io/cucumber-reports/feature-map-report">
+ * Represents data structure for the <a href="http://shreyanshp.github.io/cucumber-reports/feature-map-report">
  * Feature Map</a> report generation.
  * @author Mykola Kolisnyk
  */

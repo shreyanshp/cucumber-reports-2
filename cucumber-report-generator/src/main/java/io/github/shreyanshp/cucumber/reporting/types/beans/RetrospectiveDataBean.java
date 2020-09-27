@@ -5,7 +5,7 @@ import io.github.shreyanshp.cucumber.reporting.types.retrospective.Retrospective
 
 /**
  * Data structure which is used for the
- * <a href="http://mkolisnyk.github.io/cucumber-reports/retrospective-results-report">
+ * <a href="http://shreyanshp.github.io/cucumber-reports/retrospective-results-report">
  * Retrospective Report</a> generation.
  * @author Mykola Kolisnyk
  */

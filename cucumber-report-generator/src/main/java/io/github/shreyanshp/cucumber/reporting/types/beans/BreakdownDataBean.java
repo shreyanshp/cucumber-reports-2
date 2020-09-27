@@ -5,7 +5,7 @@ import io.github.shreyanshp.cucumber.reporting.types.breakdown.BreakdownTable;
 
 /**
  * Represents data structure which is passed as the data bean while generating
- * <a href="http://mkolisnyk.github.io/cucumber-reports/breakdown-report">Breakdown Report</a>
+ * <a href="http://shreyanshp.github.io/cucumber-reports/breakdown-report">Breakdown Report</a>
  * @author Mykola Kolisnyk
  */
 public class BreakdownDataBean extends CommonDataBean {

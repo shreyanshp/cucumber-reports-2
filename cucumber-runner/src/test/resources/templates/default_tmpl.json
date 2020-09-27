@@ -1,5 +1,5 @@
 {
-  "@type": "com.github.mkolisnyk.cucumber.reporting.utils.helpers.FreemarkerConfiguration$1", 
+  "@type": "io.github.shreyanshp.cucumber.reporting.utils.helpers.FreemarkerConfiguration$1", 
   "benchmark": "/templates/default/benchmark.ftlh", 
   "breakdown": "/templates/default/breakdown.ftlh", 
   "consolidated": "/templates/default/consolidated.ftlh", 

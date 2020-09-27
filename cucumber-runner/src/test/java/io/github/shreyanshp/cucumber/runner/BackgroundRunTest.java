@@ -13,8 +13,8 @@ import cucumber.api.CucumberOptions;
     detailedAggregatedReport = true,
     overviewReport = false, toPDF = false, outputFolder = "target/127")
 @CucumberOptions(
-        features = { "./src/test/java/com/github/mkolisnyk/cucumber/issue127" },
-        glue = { "com/github/mkolisnyk/cucumber/steps" },
+        features = { "./src/test/java/com/github/shreyanshp/cucumber/issue127" },
+        glue = { "com/github/shreyanshp/cucumber/steps" },
         plugin = {
         "json:target/cucumber-127.json", "html:target/cucumber-html-report",
         "pretty:target/cucumber-pretty.txt",

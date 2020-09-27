@@ -6,7 +6,7 @@ import io.github.shreyanshp.cucumber.reporting.types.knownerrors.KnownErrorsResu
 
 /**
  * Data structure representing the data for
- * <a href="http://mkolisnyk.github.io/cucumber-reports/known-errors-report">Known Errors Report</a> generation.
+ * <a href="http://shreyanshp.github.io/cucumber-reports/known-errors-report">Known Errors Report</a> generation.
  * @author Mykola Kolisnyk
  *
  */

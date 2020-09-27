@@ -3,7 +3,7 @@ package io.github.shreyanshp.cucumber.reporting.types.beans;
 import io.github.shreyanshp.cucumber.reporting.types.OverviewStats;
 
 /**
- * Data structure which is used for <a href="http://mkolisnyk.github.io/cucumber-reports/chart-report">
+ * Data structure which is used for <a href="http://shreyanshp.github.io/cucumber-reports/chart-report">
  * Charts Report</a> generation.
  * @author Mykola Kolisnyk
  */

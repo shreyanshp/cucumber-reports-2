@@ -23,8 +23,8 @@ public class ExtendedParallelCucumberRunnerTest {
     		overviewReport = true,
     		toPDF = false, outputFolder = "target/141")
     @CucumberOptions(
-            features = { "./src/test/java/com/github/mkolisnyk/cucumber/issue141" },
-            glue = { "com/github/mkolisnyk/cucumber/steps" },
+            features = { "./src/test/java/com/github/shreyanshp/cucumber/issue141" },
+            glue = { "com/github/shreyanshp/cucumber/steps" },
             plugin = {
             "json:target/cucumber-141.json", "html:target/cucumber-html-report-141",
             "pretty:target/cucumber-pretty-141.txt",

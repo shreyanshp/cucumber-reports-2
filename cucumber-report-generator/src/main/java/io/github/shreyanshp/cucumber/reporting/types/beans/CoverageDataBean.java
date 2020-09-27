@@ -1,7 +1,7 @@
 package io.github.shreyanshp.cucumber.reporting.types.beans;
 
 /**
- * Represents data structure for <a href="http://mkolisnyk.github.io/cucumber-reports/coverage-report">
+ * Represents data structure for <a href="http://shreyanshp.github.io/cucumber-reports/coverage-report">
  * Coverage Report</a> generation.
  * @author Mykola Kolisnyk
  */
@@ -9,7 +9,7 @@ public class CoverageDataBean extends CommonDataBean {
 
     /**
      * Represents data structure for Feature Status table row of the
-     * <a href="http://mkolisnyk.github.io/cucumber-reports/coverage-report">
+     * <a href="http://shreyanshp.github.io/cucumber-reports/coverage-report">
      * Coverage Report</a>.
      * @author Mykola Kolisnyk
      */
@@ -67,10 +67,10 @@ public class CoverageDataBean extends CommonDataBean {
     }
     /**
      * Represents data structure for Scenario Status table row of the
-     * <a href="http://mkolisnyk.github.io/cucumber-reports/coverage-report">
+     * <a href="http://shreyanshp.github.io/cucumber-reports/coverage-report">
      * Coverage Report</a>. Major difference from {@link FeatureStatusRow} is
      * the scenario name.
-     * @author mykolak
+     * @author shreyanshp
      */
     public class ScenarioStatusRow extends FeatureStatusRow {
         /**

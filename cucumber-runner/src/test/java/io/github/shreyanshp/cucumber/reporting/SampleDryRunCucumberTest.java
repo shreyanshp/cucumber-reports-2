@@ -21,8 +21,8 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(plugin = { "html:target/cucumber-html-report",
         "json:target/cucumber-dry.json", "pretty:target/cucumber-pretty-dry.txt",
         "usage:target/cucumber-usage-dry.json", "junit:target/cucumber-results-dry.xml" },
-        features = { "./src/test/java/com/github/mkolisnyk/cucumber/features" },
-        glue = { "com/github/mkolisnyk/cucumber/steps" },
+        features = { "./src/test/java/com/github/shreyanshp/cucumber/features" },
+        glue = { "com/github/shreyanshp/cucumber/steps" },
         tags = { "~@lazy"},
         dryRun = true)
 public class SampleDryRunCucumberTest {

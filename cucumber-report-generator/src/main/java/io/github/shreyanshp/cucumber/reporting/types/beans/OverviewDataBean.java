@@ -3,7 +3,7 @@ package io.github.shreyanshp.cucumber.reporting.types.beans;
 import io.github.shreyanshp.cucumber.reporting.types.OverviewStats;
 
 /**
- * Data structure for the <a href="http://mkolisnyk.github.io/cucumber-reports/overview-report">
+ * Data structure for the <a href="http://shreyanshp.github.io/cucumber-reports/overview-report">
  * Results Overview Report</a> generation.
  * @author Mykola Kolisnyk
  */
@@ -11,7 +11,7 @@ public class OverviewDataBean extends CommonDataBean {
 
     /**
      * Represents data structure for Feature Status table row of the
-     * <a href="http://mkolisnyk.github.io/cucumber-reports/overview-report">
+     * <a href="http://shreyanshp.github.io/cucumber-reports/overview-report">
      * Results Overview Report</a>.
      * @author Mykola Kolisnyk
      */
@@ -59,7 +59,7 @@ public class OverviewDataBean extends CommonDataBean {
     }
     /**
      * Represents data structure for Scenario Status table row of the
-     * <a href="http://mkolisnyk.github.io/cucumber-reports/overview-report">
+     * <a href="http://shreyanshp.github.io/cucumber-reports/overview-report">
      * Results Overview Report</a>.
      * @author Mykola Kolisnyk
      */

@@ -1,5 +1,5 @@
 {
-  "@type": "com.github.mkolisnyk.cucumber.reporting.types.knownerrors.KnownErrorsModel", 
+  "@type": "io.github.shreyanshp.cucumber.reporting.types.knownerrors.KnownErrorsModel", 
   "errorDescriptions": [
     {
       "description": "Select ticket isn't shown", 

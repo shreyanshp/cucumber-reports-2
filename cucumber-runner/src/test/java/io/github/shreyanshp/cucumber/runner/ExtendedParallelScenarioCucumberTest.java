@@ -20,8 +20,8 @@ public class ExtendedParallelScenarioCucumberTest {
     		detailedAggregatedReport = true, overviewReport = false,
     		toPDF = false, outputFolder = "target/eps")
     @CucumberOptions(
-            features = { "./src/test/java/com/github/mkolisnyk/cucumber/features" },
-            glue = { "com/github/mkolisnyk/cucumber/steps" },
+            features = { "./src/test/java/com/github/shreyanshp/cucumber/features" },
+            glue = { "com/github/shreyanshp/cucumber/steps" },
             plugin = {
             "json:target/cucumber-eps.json", "html:target/cucumber-html-report-eps",
             "pretty:target/cucumber-pretty-eps.txt",

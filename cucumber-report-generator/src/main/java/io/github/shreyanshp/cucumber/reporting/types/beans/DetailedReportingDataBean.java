@@ -5,8 +5,8 @@ import io.github.shreyanshp.cucumber.reporting.types.result.CucumberFeatureResul
 
 /**
  * Represents data structure which is used for the
- * <a href="http://mkolisnyk.github.io/cucumber-reports/detailed-report">Detailed Report</a> generation.
- * @author mykolak
+ * <a href="http://shreyanshp.github.io/cucumber-reports/detailed-report">Detailed Report</a> generation.
+ * @author shreyanshp
  *
  */
 public class DetailedReportingDataBean extends CommonDataBean {

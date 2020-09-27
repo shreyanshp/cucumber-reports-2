@@ -22,9 +22,9 @@ public class RetryAcceptanceExceptionClassTest {
             outputFolder = "target/172",
             retryCount = 3)
     @CucumberOptions(
-            features = { "src/test/java/com/github/mkolisnyk/cucumber/issue172/RetryCheck.feature" },
-            glue = {"com/github/mkolisnyk/cucumber/steps",
-                    "com/github/mkolisnyk/cucumber/runner"}, plugin = {
+            features = { "src/test/java/com/github/shreyanshp/cucumber/issue172/RetryCheck.feature" },
+            glue = {"com/github/shreyanshp/cucumber/steps",
+                    "com/github/shreyanshp/cucumber/runner"}, plugin = {
             "html:target/172", "json:target/172/cucumber.json",
             "pretty:target/172/cucumber-pretty.txt",
             "usage:target/172/cucumber-usage.json", "junit:target/172/cucumber-results.xml" })

@@ -60,8 +60,8 @@ import cucumber.api.CucumberOptions;
 @CucumberOptions(plugin = { "html:target/cucumber-html-report",
         "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
         "usage:target/cucumber-usage.json", "junit:target/cucumber-results.xml" },
-        features = { "./src/test/java/com/github/mkolisnyk/cucumber/features" },
-        glue = { "com/github/mkolisnyk/cucumber/steps" },
+        features = { "./src/test/java/com/github/shreyanshp/cucumber/features" },
+        glue = { "com/github/shreyanshp/cucumber/steps" },
         tags = {"@passed"})
 public class SampleCucumberTest {
 }

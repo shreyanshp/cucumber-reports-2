@@ -21,9 +21,9 @@ public class RetryAcceptanceTest {
             outputFolder = "target/81",
             retryCount = 3)
     @CucumberOptions(
-            features = { "src/test/java/com/github/mkolisnyk/cucumber/features/Test.feature" },
+            features = { "src/test/java/com/github/shreyanshp/cucumber/features/Test.feature" },
             tags = { "@failed" },
-            glue = "com/github/mkolisnyk/cucumber/steps", plugin = {
+            glue = "com/github/shreyanshp/cucumber/steps", plugin = {
             "html:target/81", "json:target/81/cucumber.json",
             "pretty:target/81/cucumber-pretty.txt",
             "usage:target/81/cucumber-usage.json", "junit:target/81/cucumber-results.xml" })
@@ -66,9 +66,9 @@ public class RetryAcceptanceTest {
             outputFolder = "target/81",
             retryCount = 3)
     @CucumberOptions(
-            features = { "src/test/java/com/github/mkolisnyk/cucumber/features/Test.feature" },
+            features = { "src/test/java/com/github/shreyanshp/cucumber/features/Test.feature" },
             tags = { "@failed" },
-            glue = "com/github/mkolisnyk/cucumber/steps", plugin = {
+            glue = "com/github/shreyanshp/cucumber/steps", plugin = {
             "html:target/81", "json:target/81/cucumber.json",
             "pretty:target/81/cucumber-pretty.txt",
             "usage:target/81/cucumber-usage.json", "junit:target/81/cucumber-results.xml" })
@@ -110,9 +110,9 @@ public class RetryAcceptanceTest {
             outputFolder = "target/141",
             retryCount = 3)
     @CucumberOptions(
-            features = { "src/test/java/com/github/mkolisnyk/cucumber/features/Test.feature" },
+            features = { "src/test/java/com/github/shreyanshp/cucumber/features/Test.feature" },
             tags = { "@passed", "~@flaky", "~@exclude" },
-            glue = "com/github/mkolisnyk/cucumber/steps", plugin = {
+            glue = "com/github/shreyanshp/cucumber/steps", plugin = {
             "html:target/141", "json:target/141/cucumber.json",
             "pretty:target/141/cucumber-pretty.txt",
             "usage:target/141/cucumber-usage.json", "junit:target/141/cucumber-results.xml" })
