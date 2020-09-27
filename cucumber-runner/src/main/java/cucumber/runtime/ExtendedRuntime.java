@@ -8,7 +8,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Set;
 
-import com.github.mkolisnyk.cucumber.assertions.LazyAssertionError;
+import io.github.shreyanshp.cucumber.assertions.LazyAssertionError;
 
 import cucumber.api.Pending;
 import cucumber.api.SummaryPrinter;
